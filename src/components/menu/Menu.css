@@ -1,0 +1,43 @@
+.menu-superior{
+  width: 1280px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-superior span{
+  color: var(--rosa-primario, #F71963);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.menu-main{
+  width: 1280px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;  
+}
+.menu-main input{
+  margin-top: 12px;
+  width: 657px;
+  height: 48px; 
+  border-radius: 10px;
+  background: #F6F5F2;
+  
+}
+.logo{
+  width: 139px;
+  height: 50.641px;
+  flex-shrink: 0;
+}
+.menu-inferior{
+  width: 1280px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+}
