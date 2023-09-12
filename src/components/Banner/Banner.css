@@ -1,0 +1,8 @@
+.banner {
+  width: 1443px;
+  height: 395px;
+  flex-shrink: 0;
+  background-image: url(/image/banner.png);
+  opacity: 0.8;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 85.04%);
+}
